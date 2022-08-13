@@ -1,0 +1,26 @@
+{
+  "name": "cypress-e2e",
+  "version": "1.0.0",
+  "description": "End-to-end automation testing with Cypress",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "Cypress open",
+    "cy:run": "Cypress run"
+  },
+  "keywords": [
+    "e2e",
+    "automation",
+    "cypress"
+  ],
+  "author": "Quoc Bao Nguyen",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^6.9.1",
+    "cypress-plugin-tab": "^1.0.5",
+    "cypress-wait-until": "^1.7.2",
+    "cypress-xpath": "^2.0.1",
+    "jsonpath": "^1.1.1",
+    "node-xlsx": "^0.21.0",
+    "prettier": "^2.7.1"
+  }
+}
